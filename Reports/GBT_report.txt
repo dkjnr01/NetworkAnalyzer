@@ -1,0 +1,24 @@
+Accuracy: 98.1379952415434% 
+
+Confustion Matrix 
+[[4776   84]
+ [  96 4711]]
+        
+
+Classificiation Report 
+              precision    recall  f1-score   support
+
+           0       0.98      0.98      0.98      4860
+           1       0.98      0.98      0.98      4807
+
+    accuracy                           0.98      9667
+   macro avg       0.98      0.98      0.98      9667
+weighted avg       0.98      0.98      0.98      9667
+ 
+
+Completion Time : 611s
+
+Cross val score :[0.98137868 0.98810717 0.98853516 0.88879526 0.86217728]
+0.9417987101314319
+
+Standard Deviation : 0.054853045006999904
