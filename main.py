@@ -12,7 +12,7 @@ from time import time
 import pandas as pd
 
 # custom module that retrieves the cleaned dataset
-from modules.customKits import prepareDataset
+from modules.custom_modules import prepareDataset
 
 dataset = prepareDataset("MaliciousDoH.csv")
 X = dataset[0]
