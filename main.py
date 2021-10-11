@@ -4,7 +4,7 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 
-from sklearn.metrics import confusion_matrix, classification_report, plot_confusion_matrix, plot_roc_curve
+from sklearn.metrics import confusion_matrix, classification_report, plot_confusion_matrix
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.feature_selection import SelectKBest, mutual_info_classif
 from sklearn.preprocessing import StandardScaler
